@@ -20,7 +20,7 @@
       }
 
       .theme.col-1 {
-        background-color: #927bc1;
+        background-color: $color-primary-contrast;
       }
 
       .theme.col-2 {
@@ -52,15 +52,15 @@
       }
 
       .theme.col-9 {
-        background-color: #e4757a;
+        background-color: $color-primary-split;
       }
 
       .theme.col-10 {
-        background-color: #63cc82;
+        background-color: $color-primary-analogous;
       }
 
       .theme.col-11 {
-        background-color: #51ddfc;
+        background-color: $color-secondary;
       }
 
       .theme.col-12 {
