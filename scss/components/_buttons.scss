@@ -13,20 +13,40 @@
 
 .default {
   background-color: $color-secondary;
+  transition: background-color .5s;
+  &:hover{
+    background-color: lighten($color-secondary, 15%);
+  }
 }
 
 .error {
   background-color: $color-primary-split;
+  transition: background-color .5s;
+  &:hover{
+    background-color: lighten($color-primary-split, 15%);
+  }
 }
 
 .info {
   background-color: $color-primary-contrast;
+  transition: background-color .5s;
+  &:hover{
+    background-color: lighten($color-primary-contrast, 15%);
+  }
 }
 
 .success {
   background-color: $color-primary-analogous;
+  transition: background-color .5s;
+  &:hover{
+    background-color: lighten($color-primary-analogous, 15%);
+  }
 }
 
 .warning {
   background-color: #fd7856;
+  transition: background-color .5s;
+  &:hover{
+    background-color: lighten(#fd7856, 15%);
+  }
 }
